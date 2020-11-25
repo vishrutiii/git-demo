@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "basic demo for node and git",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishrutiii/git-demo.git"
+  },
+  "author": "vishruti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishrutiii/git-demo/issues"
+  },
+  "homepage": "https://github.com/vishrutiii/git-demo#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
